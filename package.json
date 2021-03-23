@@ -1,12 +1,13 @@
 {
-	"name": "js-binary",
+	"name": "@iceprod/js-binary",
 	"version": "1.2.0",
-	"author": "Sitegui <sitegui@sitegui.com.br>",
+	"author": "Daniel Bulant (https://danbulant.eu)",
 	"description": "Encode/decode to a custom binary format, much more compact and faster than JSON/BSON",
 	"main": "./index.js",
+	"types": "./js-binary.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sitegui/js-binary"
+		"url": "https://github.com/iceproductions/js-binary"
 	},
 	"keywords": [
 		"binary",
@@ -15,7 +16,6 @@
 		"decode",
 		"json"
 	],
-	"dependencies": {},
 	"license": "MIT",
 	"engines": {
 		"node": ">=4"
@@ -25,6 +25,7 @@
 		"docs": "jsdoc -d docs -c docs.json -R README.md"
 	},
 	"devDependencies": {
+		"@types/node": "^14.14.35",
 		"jsdoc": "^3.5.5",
 		"mocha": "^4.0.1",
 		"should": "^13.1.3"
