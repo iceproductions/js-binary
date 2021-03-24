@@ -1,6 +1,6 @@
 # JS Binary
 
-Encode/decode to a custom binary format, much more compact and faster than JSON/BSON. Now with safe `Buffer`s and with typescript type definitions. Everything else remains compatible with the original `js-binary` package (meaning you can encode with this library and decode with `js-binary` and vice-versa).
+Encode/decode to a custom binary format, much more compact and faster than JSON/BSON. Now with safe `Buffer`s and with typescript type definitions. Also allows to pass custom Buffer class to be used (allows browser usage). Everything else remains compatible with the original `js-binary` package (meaning you can encode with this library and decode with `js-binary` and vice-versa).
 
 ## Install
 

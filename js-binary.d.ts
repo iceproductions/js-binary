@@ -3,7 +3,7 @@ declare module "js-binary" {
     export class Data {
         private _buffer: Buffer;
         private _length: number;
-        constructor(capacity: number);
+        constructor(capacity: number, buffer?: typeof Buffer);
 
         appendBuffer(data: Buffer): void;
         writeUInt8(value: number): void;
@@ -72,7 +72,7 @@ declare module "js-binary" {
         fields?: Field[];
         subType?: Type;
 
-        constructor(type: TypeDeclaration);
+        constructor(type: TypeDeclaration, buffer?: typeof Buffer);
 
         encode(value: any): Buffer;
         decode(data: Buffer): any;
