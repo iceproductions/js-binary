@@ -4,6 +4,11 @@
 'use strict'
 
 /**
+ * @member {typeof Buffer}
+ */
+module.exports.Buffer = Buffer;
+
+/**
  * @member {Data}
  */
 module.exports.Data = require('./lib/Data')

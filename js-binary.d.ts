@@ -1,7 +1,6 @@
 
 declare module "js-binary" {
     export class Data {
-        private _bufferClass: typeof Buffer;
         private _buffer: Buffer;
         private _length: number;
         constructor(capacity: number, buffer?: typeof Buffer);
@@ -73,7 +72,7 @@ declare module "js-binary" {
         fields?: Field[];
         subType?: Type;
 
-        constructor(type: TypeDeclaration, buffer?: typeof Buffer);
+        constructor(type: TypeDeclaration);
 
         encode(value: any): Buffer;
         decode(data: Buffer): any;
