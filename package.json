@@ -1,6 +1,6 @@
 {
 	"name": "@iceprod/js-binary",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"author": "Daniel Bulant (https://danbulant.eu)",
 	"description": "Encode/decode to a custom binary format, much more compact and faster than JSON/BSON",
 	"main": "./index.js",
